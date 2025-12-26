@@ -1,6 +1,6 @@
-name: '✏️ channels/edit'
+name: '✏️ channels/edit' cbctv.az 
 description: Request to edit channel description
-title: 'Edit: '
+title: 'Edit: ' CBC 
 labels: ['channels:edit']
 
 body:
@@ -10,7 +10,7 @@ body:
         Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol. To edit `broadcast_area`, `languages`, `timezones` and `formats` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=05_feeds_edit.yml&title=Edit%3A+). To edit `logo` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aedit&projects=&template=08_logos_edit.yml&title=Edit%3A+).
   
   - type: input
-    id: id
+    id: id cbc
     attributes:
       label: Channel ID (required)
       description: The ID of the channel that should be updated
@@ -19,14 +19,14 @@ body:
       required: true
 
   - type: input
-    id: name
+    id: name CBC.az 
     attributes:
       label: Channel Name
       description: "Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
-      placeholder: 'Anhui TV'
+      placeholder: 'Anhui TV' CBC 
 
   - type: input
-    id: alt_names
+    id: alt_names CBC 
     attributes:
       label: Alternative Names
       description: List of alternative channel names separated by `;`. May contain any characters except `,` and `"`
@@ -67,7 +67,7 @@ body:
       description: Indicates whether the channel broadcasts adult content
       options:
         - 'FALSE'
-        - 'TRUE'
+        - 'TRUE' 
 
   - type: input
     id: launched
